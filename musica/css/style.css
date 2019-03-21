@@ -1,0 +1,41 @@
+.c-header{
+    background-color: white;
+    height: 150px;
+}
+.img-logo{
+    height: 100px;
+}
+.fa{
+    font-size: 32px;
+}
+.fa-facebook-official{
+    color:#3B5998;
+}
+.fa-youtube{
+    color:#bb0000;
+}
+.fa-instagram{
+    color:#125688;
+}
+.fa-google-plus-official{
+    color:#dd4b39;
+}
+.fa-twitter{
+    color:#55ACEE;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.nav-sombra:hover{
+    background-color: #bcc4cc;
+    color: black !important;
+}
+.c-nav{
+    background-color: brown;
+}
+.c-section{
+    background-color: white;
+}
+.fa-btn{
+    font-size: 26px;
+}

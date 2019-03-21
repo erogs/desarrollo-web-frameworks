@@ -5,12 +5,178 @@
     <meta name='viewport' content='width=device-width initial-scale=1'>
     <meta name='mobile-web-app-capable' content='yes'>
     <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel='stylesheet' href='css/style.css'>
     <script src='js/jquery-3.3.1.min.js'></script>
+    <script src='js/popper.min.js'></script>
     <script src='js/bootstrap.min.js'></script>
     <title>Musica</title>
   </head>
-  <body class='turismo-body'>
-    
+  <body>
+    <div class="container-fluid bg-secondary">
+      <div class="container c-header">
+        <header>
+          <div class="row justify-content-between c-header pl-3">
+            <div class="col-sm-12 col-md-2 align-self-center d-flex justify-content-center">
+              <img src="img/logo.png" alt="logo" class="img-logo">
+            </div>
+            <div class="col-sm-12 col-md-4 align-self-end d-flex justify-content-center">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus-official"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="container c-nav">
+        <nav>
+          <ul class="nav nav-pills nav-fill flex-column flex-md-row">
+            <li class="nav-item">
+              <a class="nav-link text-white nav-sombra" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-sombra" href="#">Artistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-sombra" href="#">Grupos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-sombra" href="#">Top 10</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-sombra" href="#">Letras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-sombra" href="#">Acordes</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container c-section mt-3">
+        <div class="row">
+          <div class="col-md-12 col-lg-8 ">
+            <div class="row">
+              <div class="col-md-7 col-sm-12 text-justify">
+                <h4>Nirvana</h4>
+                Nirvana fue una banda de grunge estadounidense procedente de Aberdeen, Washington, Estados Unidos integrada por el
+                vocalista y guitarrista Kurt Cobain y el bajista Krist Novoselic en 1987. Desde su formación, Nirvana pasó a través de
+                una serie de frecuentes cambios de baterista hasta que en 1990 se les unió definitivamente el baterista Dave Grohl.
+                Nirvana actualmente es considerada como una de las bandas más famosas, mejor vendidas, importantes e influyentes de la
+                historia de la música, siendo considerada la banda símbolo de una generación.
+              </div>
+              <div class="col-md-5 col-sm-12 text-center mt-1">
+                <img src="img/nirvana.jpg" alt="Nirvana" class="img-fluid">
+              </div>
+            </div>
+            <div class="form-group row mt-1">
+              <div class="col-1 align-self-center">
+                <label for="textarea"><i class="fa fa-user  w-100" aria-hidden="true"></i></label>
+              </div>
+              <div class="col-11">
+                <textarea class="form-control" id="textarea" rows="3" placeholder="Comentario"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5 col-sm-12 text-center mt-1">
+                <img src="img/RobbieWilliams.jpg" alt="Nirvana" class="img-fluid">
+              </div>
+              <div class="col-md-7 col-sm-12 text-justify">
+                <h4>Robbie Williams</h4>
+                Robert Peter Williams (Stoke-on-Trent, Staffordshire, Inglaterra, 13 de febrero de 1974), más conocido como Robbie
+                Williams, es un cantante, compositor y actor británico de pop rock.
+                
+                Empezó su carrera musical en el grupo Take That.1​ Tras su paso por este grupo, a principios y mediados de los 90', se
+                forjó una carrera como solista, siendo "Angels", una balada, la canción que le dio su primer éxito.2​ Su primer álbum
+                fue Life Thru A Lens. Su siguiente álbum, I've Been Expecting You, lanzado en octubre de 1998, contiene el tema "No
+                Regrets", dedicado a sus antiguos compañeros de Take That. Al año siguiente lanza The Ego Has Landed en el mercado
+                norteamericano y poco después grabó Sing When You're Winning, que contenía Rock DJ, éxito en varios países.
+
+              </div>
+            </div>
+            <div class="form-group row mt-1">
+              <div class="col-1 align-self-center">
+                <label for="textarea"><i class="fa fa-user " aria-hidden="true"></i></label>
+              </div>
+              <div class="col-11">
+                <textarea class="form-control" id="textarea" rows="3" placeholder="Comentario"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-block mt-2">
+            <form class="form-inline justify-content-center">
+              <button class="btn btn-sm btn-outline-secondary" type="submit"><i class="fa fa-search fa-btn" aria-hidden="true"></i></button>
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 7</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 8</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 9</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 10</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 11</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 12</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 13</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 14</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 15</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 16</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 17</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 18</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 19</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary nav-sombra" href="#">Opción 20</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>        
+    </div>
   </body>
 </html>
