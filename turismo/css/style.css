@@ -1,0 +1,11 @@
+body{
+    background: url("../img/fondo.jpg") no-repeat fixed;
+}   
+.img-materialize{
+    height: 120px;
+    border-radius: 10%;
+}
+.fa{
+    font-size: 32px;
+    color: white;
+}
