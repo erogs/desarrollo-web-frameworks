@@ -1,0 +1,38 @@
+body{
+    background: url("../img/fondo.jpg") no-repeat fixed;
+}  
+.gray{
+    background-color: gray;
+    opacity: 0.8;
+    margin: auto;
+    max-width: 1200px;
+}
+.white-text{
+    color: white;
+}
+.background-color-indianred{
+    background-color: indianred;
+}
+.border-color-indianred{
+    border-color: indianred;
+}
+.indianred-text{
+    color: indianred;
+}
+.margin-10{
+    margin: 10px;
+}
+
+.padding-10{
+    padding: 10px;
+}
+.border-indianred{
+    border: 1px solid indianred;
+    border-radius: 5%;
+}
+a{
+    color: indianred;
+}
+li:hover{
+    background-color: darkgrey;
+}
